@@ -4,7 +4,10 @@ install:
 brain-games:
 	node bin/brain-games.js
 
-make lint:
+brain-even: 
+	node bin/brain-even.js
+
+lint:
 	npx eslint .
 
 publish: 
