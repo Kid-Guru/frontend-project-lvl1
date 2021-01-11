@@ -1,3 +1,8 @@
-import promptly from 'promptly';
+import readline from 'readline-sync';
 
-export default async (text) => promptly.prompt(text);
+const generateNumber = (min, max) => {
+  const rand = min + Math.random() * (max + 1 - min);
+  return Math.floor(rand);
+};
+
+export { readline, generateNumber };

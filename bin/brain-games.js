@@ -1,5 +1,0 @@
-#!/usr/bin/env node
-import askQuestion from '../src/cli.js';
-
-console.log('Welcome to the Brain Games!');
-askQuestion('May I have your name?').then((name) => console.log(`Hello!!, ${name}`));
