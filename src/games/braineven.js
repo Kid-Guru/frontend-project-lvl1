@@ -1,4 +1,4 @@
-import { generateNumber } from '../src/cli.js';
+import { generateNumber } from '../cli.js';
 
 const isEven = (num) => num % 2 === 0;
 

@@ -1,9 +1,8 @@
 // #!/usr/bin/env node
-import { readline } from './cli.js';
+import { readline, greeting } from './cli.js';
 
 const runBrainGames = (gameRule, runGame) => {
-  console.log('Welcome to the Brain Games!');
-  const playerName = readline.question('May I have your name? ');
+  const playerName = greeting();
   console.log(gameRule);
 
   let correctAnswersCount = 0;

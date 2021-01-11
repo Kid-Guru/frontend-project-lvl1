@@ -5,4 +5,10 @@ const generateNumber = (min, max) => {
   return Math.floor(rand);
 };
 
-export { readline, generateNumber };
+const greeting = () => {
+  console.log('Welcome to the Brain Games!');
+  const playerName = readline.question('May I have your name? ');
+  return playerName;
+};
+
+export { readline, generateNumber, greeting };
