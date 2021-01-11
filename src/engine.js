@@ -1,4 +1,4 @@
-// #!/usr/bin/env node
+#!/usr/bin/env node
 import { readline, greeting } from './cli.js';
 
 const runBrainGames = (gameRule, runGame) => {
