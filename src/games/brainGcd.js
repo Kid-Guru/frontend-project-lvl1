@@ -16,8 +16,8 @@ const findGCD = (input1, input2) => {
 const gameRule = 'Find the greatest common divisor of given numbers.';
 
 const makeBrainGcd = () => {
-  const num1 = generateNumber(0, 100);
-  const num2 = generateNumber(0, 100);
+  const num1 = generateNumber(0, 20);
+  const num2 = generateNumber(0, 20);
   const question = `${num1} ${num2}`;
   const correctAnswer = findGCD(num1, num2);
   return [question, correctAnswer];
