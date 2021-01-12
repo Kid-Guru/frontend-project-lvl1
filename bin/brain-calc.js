@@ -4,4 +4,3 @@ import runBrainGames from '../src/engine.js';
 
 const runBrainCalc = () => runBrainGames(gameRule, makeBrainCalc);
 runBrainCalc();
-export default runBrainCalc;
