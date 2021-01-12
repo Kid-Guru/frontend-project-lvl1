@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import { generateNumber } from '../cli.js';
 
 const generateSymbol = (symbols) => {

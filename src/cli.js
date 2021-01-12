@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import readline from 'readline-sync';
 
 const generateNumber = (min, max) => {
