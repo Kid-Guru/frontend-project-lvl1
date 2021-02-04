@@ -1,12 +1,12 @@
 # Brain games - Hexlet frontend project I
-### «Игры разума» — набор из пяти консольных игр
+### «Brain Games» is a set of five console games
 
 #### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Kid-Guru/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Kid-Guru/frontend-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/Kid-Guru/frontend-project-lvl1/maintainability)
 
 ## About The Project
-Brain Games is a set of five console games built on the principle of popular mobile brain-boosting apps. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered to be completed. Wrong answers end the game and offer to play it again. 
+«Brain Games» is a set of five console games built on the principle of popular mobile brain-boosting apps. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered to be completed. Wrong answers end the game and offer to play it again. 
 
 List of games:
 - Calculator. Arithmetic expressions to be evaluated.
